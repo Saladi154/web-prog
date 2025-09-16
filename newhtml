@@ -1,11 +1,28 @@
 <html>
 <head>
-<title>program</title>
+<title>login page</title>
 </head>
+<style>
+body{ 
+margin:0;
+h1{font-family:Lucida Handwriting;text-align:center;color:white}
+p{sans-serif;}
+background-image:url('photo.JPG');
+background-size:cover;
+color:white; 
+font-size:30pt;
+text-align:left;
+margin:12;
+}
+</style>
 <body>
-<img src="www.image.png">
-<h1>web programming</h1>
-<p>this is a paragraph tag</p>
-<a href="https//www.image.com">image </a>
+<h1>Welcome to Aditya library</h1>
+ <form >
+username or email:<input type="text"name="email"><br><br>
+password:<input type="text"name="password"><br><br>
+<input type="submit" name="submit">
+</form>
+<p>or<br> New user <br></p>
+<button type="reset" value="reset"font-size:20pt> Register </button>
 </body>
 </html>
